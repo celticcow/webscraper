@@ -62,7 +62,7 @@ def main():
     url = 'https://www.nike.com/t/kd13-chill-basketball-shoe-kbKpNV'
     url2 = 'https://www.nike.com/t/air-zoom-pegasus-37-flyease-mens-running-shoe-extra-wide-8nq874/CK8446-004'
 
-    bot = SneakerBot(url2)
+    bot = SneakerBot(url)
 
     price = bot.get_price()
 
